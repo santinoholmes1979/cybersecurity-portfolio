@@ -1,83 +1,146 @@
-# cybersecurity-portfolio
-# Cybersecurity Engineering Portfolio
+# AI-Driven Security Operations Platform
 
-Ryan Holmes  
-B.S. Security & Risk Analysis – Penn State  
-Focus: Detection Engineering, Threat Hunting, AI-Assisted Security Tooling
+This portfolio demonstrates the design and development of an **AI-assisted Security Operations (SOC) platform** built with Python.
+
+The projects simulate how modern security teams detect, investigate, and respond to adversary activity using telemetry analysis, detection engineering, threat hunting, and attack chain reconstruction.
+
+The goal of this portfolio is to demonstrate **security engineering skills across the entire SOC lifecycle.**
 
 ---
 
-## Featured Security Projects
+# Security Platform Architecture
 
-### AI-Assisted EDR Threat Hunting & Detection Engineering Lab
-Simulates a modern SOC investigation environment with synthetic endpoint telemetry, detection rules aligned to MITRE ATT&CK, adversary campaign simulation, and analyst investigation tools.
+The repositories in this portfolio collectively simulate a modern security operations pipeline.
 
-Key capabilities:
-- Synthetic endpoint telemetry generation
-- Detection rules for PowerShell execution, password spray, and persistence
-- MITRE ATT&CK mapping
-- Threat hunting interface
-- SOC triage workflow
-- Detection tuning and suppression controls
-- Adversary campaign simulation
+```
+Adversary Simulation
+        ↓
+Telemetry Generation
+        ↓
+Log Ingestion
+        ↓
+Detection Engineering
+        ↓
+Threat Hunting
+        ↓
+Attack Chain Reconstruction
+        ↓
+SOC Investigation Dashboard
+```
+
+---
+
+# Portfolio Projects
+
+## AI Threat Hunter
+
+Threat hunting dashboard that allows analysts to investigate alerts, filter suspicious activity, and identify potential adversary behavior.
+
+Repo:
+https://github.com/santinoholmes1979/ai-threat-hunter
+
+Key Concepts:
+
+* Threat hunting
+* SOC investigation workflows
+* Behavioral detection
+* Security analytics
+
+---
+
+## AI Attack Chain Analyzer
+
+Reconstructs adversary activity across the MITRE ATT&CK kill chain and generates investigation summaries.
+
+Repo:
+https://github.com/santinoholmes1979/ai-attack-chain-analyzer
+
+Key Concepts:
+
+* MITRE ATT&CK mapping
+* Incident reconstruction
+* Attack chain analysis
+* Threat intelligence
+
+---
+
+## AI EDR Threat Hunting
+
+Simulates endpoint telemetry and applies detection rules to identify suspicious behavior.
 
 Repo:
 https://github.com/santinoholmes1979/ai-edr-threat-hunting
 
----
+Key Concepts:
 
-### Microsoft Sentinel SIEM Detection Lab
-
-Cloud SIEM environment built using Microsoft Sentinel to simulate real SOC workflows.
-
-Features:
-- Log ingestion
-- KQL queries
-- Analytics rules
-- Incident generation
-- Investigation workflow
+* Endpoint telemetry
+* Detection rules
+* Behavioral analytics
 
 ---
 
-### Zero Trust UEBA Engine
+## AI RMF Log Analyzer
 
-Behavioral analytics project simulating user and entity behavior analysis to detect anomalous activity in a Zero Trust architecture.
+AI-assisted log analysis pipeline designed to analyze security logs and classify potential risk events.
 
-Features:
-- Behavioral baselining
-- Anomaly detection
-- Identity-based security monitoring
+Repo:
+https://github.com/santinoholmes1979/ai-rmf-log-analyzer
 
----
+Key Concepts:
 
-### AI RMF Log Analyzer
-
-Security automation project designed to analyze system logs against Risk Management Framework control expectations using AI-assisted logic.
-
-Features:
-- Automated log analysis
-- RMF-aligned security validation
-- AI-assisted security decision support
+* Log analysis
+* AI-assisted classification
+* Security analytics
 
 ---
 
-### ASDS — AI Security Decision Support System
+## Sentinel SIEM Lab
 
-An AI-assisted security analysis tool designed to help security teams evaluate risks and security posture.
+Simulates SIEM ingestion and detection engineering workflows using Azure Sentinel concepts.
 
-Features:
-- AI-based security reasoning
-- Risk evaluation
-- Security decision support
+Repo:
+https://github.com/santinoholmes1979/sentinel-siem-lab
+
+Key Concepts:
+
+* SIEM pipelines
+* Detection engineering
+* SOC alert workflows
 
 ---
 
-## Skills Demonstrated
+## Zero Trust AI
 
-Detection Engineering  
-Threat Hunting  
-SOC Investigation Workflows  
-SIEM Engineering  
-MITRE ATT&CK Mapping  
-Python Security Tooling  
-AI-Assisted Security Analysis
+Demonstrates identity and access analysis concepts aligned with Zero Trust security architecture.
+
+Repo:
+https://github.com/santinoholmes1979/zero-trust-ai
+
+Key Concepts:
+
+* Zero Trust architecture
+* Identity analytics
+* Access anomaly detection
+
+---
+
+# Technologies Used
+
+* Python
+* Streamlit
+* Pandas
+* Security telemetry simulation
+* MITRE ATT&CK framework
+* Detection engineering workflows
+* AI-assisted security analytics
+
+---
+
+# Author
+
+Ryan Holmes
+B.S. Security and Risk Analysis — Information & Cybersecurity
+Former U.S. Navy Instructor & Security Specialist
+
+GitHub: https://github.com/santinoholmes1979
+LinkedIn: https://www.linkedin.com/in/ryan-holmes-62378a254
