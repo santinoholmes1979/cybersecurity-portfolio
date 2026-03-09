@@ -1,3 +1,21 @@
+## AI Security Platform Architecture
+
+Telemetry Sources
+    │
+    ├── Endpoint Logs
+    ├── Authentication Events
+    └── Network Activity
+            ↓
+        Log Ingestion
+            ↓
+      Detection Engine
+            ↓
+        Threat Hunting
+            ↓
+     Attack Chain Analysis
+            ↓
+      SOC Investigation
+
 # AI-Driven Security Operations Platform
 
 This portfolio demonstrates the design and development of an **AI-assisted Security Operations (SOC) platform** built with Python.
